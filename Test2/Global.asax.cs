@@ -16,6 +16,9 @@ namespace Test2
 
 		public static void RegisterRoutes (RouteCollection routes)
 		{
+
+			log4net.Config.DOMConfigurator.Configure(); 
+
 			routes.IgnoreRoute ("{resource}.axd/{*pathInfo}");
 			routes.IgnoreRoute("{*favicon}", new { favicon = @"(.*/)?favicon.ico(/.*)?" });
 

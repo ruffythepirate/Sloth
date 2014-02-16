@@ -13,7 +13,7 @@ namespace Test2.Controllers
 
 		private ILogger _logger;
 		public ILogger Logger {
-			get{ return _logger ?? NullLogger.Instance; }  
+			get{ return _logger; }  
 			set{_logger = value; }
 		}
 
@@ -28,7 +28,6 @@ namespace Test2.Controllers
 
 		public ActionResult Index ()
 		{
-			Console.WriteLine ("This is an outrage, logging not working!");
 			Logger.Debug("HomeController.Index");
 			ViewData ["Message"] = "Welcome to ASP.NET MVC on Mono!";
 			return View ();
