@@ -3,12 +3,18 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sloth", "Test2\Sloth.csproj", "{3178807D-0A16-4622-9957-E9F49BE537B7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sloth.Core.Infrastructure", "Sloth.Core.Infrastructure\Sloth.Core.Infrastructure.csproj", "{248C18C2-E9BF-4D21-83A1-AF5A69FFE086}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{248C18C2-E9BF-4D21-83A1-AF5A69FFE086}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{248C18C2-E9BF-4D21-83A1-AF5A69FFE086}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{248C18C2-E9BF-4D21-83A1-AF5A69FFE086}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{248C18C2-E9BF-4D21-83A1-AF5A69FFE086}.Release|Any CPU.Build.0 = Release|Any CPU
 		{3178807D-0A16-4622-9957-E9F49BE537B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{3178807D-0A16-4622-9957-E9F49BE537B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3178807D-0A16-4622-9957-E9F49BE537B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
