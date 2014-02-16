@@ -12,6 +12,11 @@ namespace Test2
 			get;
 			set;
 		}
+
+		public override string ToString ()
+		{
+			return Message;
+		}
 	}
 }
 

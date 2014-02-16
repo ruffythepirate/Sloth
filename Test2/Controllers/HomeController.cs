@@ -11,9 +11,10 @@ namespace Test2.Controllers
 	public class HomeController : Controller
 	{
 
+		private ILogger _logger;
 		public ILogger Logger {
-			get;
-			set;
+			get{ return _logger ?? NullLogger.Instance; }  
+			set{_logger = value; }
 		}
 
 		public List<string> Messages {
@@ -27,12 +28,15 @@ namespace Test2.Controllers
 
 		public ActionResult Index ()
 		{
+			Console.WriteLine ("This is an outrage, logging not working!");
+			Logger.Debug("HomeController.Index");
 			ViewData ["Message"] = "Welcome to ASP.NET MVC on Mono!";
 			return View ();
 		}
 
 
 		public void AddMessage(MessageViewModel viewModel)  {
+			Logger.DebugFormat ("Add Message {0}", viewModel);
 			Messages.Add (viewModel.Message);
 		}
 	}
