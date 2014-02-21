@@ -5,5 +5,6 @@
 *.log
 
 packages/*
-logs/*
+*/logs/*
 Test2/bin/*
+*/obj/*

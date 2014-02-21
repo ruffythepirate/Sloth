@@ -19,11 +19,12 @@ namespace Sloth.Core.Infrastructure
 			{
 				using (var channel = connection.CreateModel())
 				{
-					channel.QueueDeclare("hello", false, false, false, null);
+					channel.QueueDeclare(targetQueue, false, false, false, null);
 
 					var body = Encoding.UTF8.GetBytes(message);
 
 					channel.BasicPublish("", targetQueue, null, body);
+				
 					Logger.DebugFormat ("Sent message '{0}' to queue '{1}'", message, targetQueue);
 				}
 			}
