@@ -1,18 +1,21 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Sloth.Core.Infrastructure/Services/Impl/MessageService.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Test2/Controllers/EnvironmentsController.cs">
     <Files>
-      <File FileName="Test2/Controllers/HomeController.cs" Line="50" Column="1" />
+      <File FileName="Test2/Controllers/HomeController.cs" Line="1" Column="1" />
       <File FileName="Test2/Views/Home/Index.aspx" Line="1" Column="1" />
       <File FileName="Test2/Models/MessageViewModel.cs" Line="1" Column="1" />
-      <File FileName="Test2/Plumbing/WindsorControllerFactory.cs" Line="4" Column="21" />
+      <File FileName="Test2/Plumbing/WindsorControllerFactory.cs" Line="1" Column="1" />
       <File FileName="Test2/Web.config" Line="1" Column="1" />
-      <File FileName="Sloth.Core.Infrastructure/Services/Impl/MessageService.cs" Line="17" Column="65" />
-      <File FileName="Test2/ControllerServices/HomeControllerService.cs" Line="25" Column="58" />
-      <File FileName="Test2/Installers/ControllerServicesInstaller.cs" Line="14" Column="27" />
-      <File FileName="Test2/Installers/ServicesInstaller.cs" Line="16" Column="26" />
-      <File FileName="Test2/Installers/ControllersInstaller.cs" Line="14" Column="2" />
+      <File FileName="Sloth.Core.Infrastructure/Services/Impl/MessageService.cs" Line="26" Column="28" />
+      <File FileName="Test2/ControllerServices/HomeControllerService.cs" Line="1" Column="1" />
+      <File FileName="Test2/Installers/ControllerServicesInstaller.cs" Line="1" Column="1" />
+      <File FileName="Test2/Installers/ServicesInstaller.cs" Line="1" Column="1" />
+      <File FileName="Test2/Installers/ControllersInstaller.cs" Line="1" Column="1" />
       <File FileName="Test2/packages.config" Line="1" Column="1" />
+      <File FileName="Sloth.Internal.Contracts/Commands/Environments/CreateEnvironment.cs" Line="6" Column="3" />
+      <File FileName="Sloth.Domain/MyClass.cs" Line="1" Column="1" />
+      <File FileName="Test2/Controllers/EnvironmentsController.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

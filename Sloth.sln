@@ -5,22 +5,58 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sloth", "Test2\Sloth.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sloth.Core.Infrastructure", "Sloth.Core.Infrastructure\Sloth.Core.Infrastructure.csproj", "{248C18C2-E9BF-4D21-83A1-AF5A69FFE086}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sloth.Internal.Contracts", "Sloth.Internal.Contracts\Sloth.Internal.Contracts.csproj", "{B386E864-657A-433A-A105-13A8E718923E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sloth.Domain", "Sloth.Domain\Sloth.Domain.csproj", "{4FBF6438-87B9-4280-9FD4-88AC8FBA72BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sloth.Core.Infrastructure.Receiver", "Sloth.Core.Infrastructure.Receiver\Sloth.Core.Infrastructure.Receiver.csproj", "{7EF148B6-E47E-49C3-8EFD-92A0F4E65D2C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sloth.Worker.MessageHandlers", "Sloth.Worker.MessageHandlers\Sloth.Worker.MessageHandlers.csproj", "{2B68138E-A305-4276-93E3-AC8FC41813B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sloth.Worker", "Sloth.Worker\Sloth.Worker.csproj", "{19086800-16DC-498D-9D4E-2BBEBE44EA0F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sloth.Core.Infrastructure.Sender", "Sloth.Core.Infrastructure.Sender\Sloth.Core.Infrastructure.Sender.csproj", "{F36DC642-A8DA-457B-89ED-3ADA0728D414}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{19086800-16DC-498D-9D4E-2BBEBE44EA0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19086800-16DC-498D-9D4E-2BBEBE44EA0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19086800-16DC-498D-9D4E-2BBEBE44EA0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19086800-16DC-498D-9D4E-2BBEBE44EA0F}.Release|Any CPU.Build.0 = Release|Any CPU
 		{248C18C2-E9BF-4D21-83A1-AF5A69FFE086}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{248C18C2-E9BF-4D21-83A1-AF5A69FFE086}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{248C18C2-E9BF-4D21-83A1-AF5A69FFE086}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{248C18C2-E9BF-4D21-83A1-AF5A69FFE086}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B68138E-A305-4276-93E3-AC8FC41813B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B68138E-A305-4276-93E3-AC8FC41813B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B68138E-A305-4276-93E3-AC8FC41813B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B68138E-A305-4276-93E3-AC8FC41813B8}.Release|Any CPU.Build.0 = Release|Any CPU
 		{3178807D-0A16-4622-9957-E9F49BE537B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{3178807D-0A16-4622-9957-E9F49BE537B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3178807D-0A16-4622-9957-E9F49BE537B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3178807D-0A16-4622-9957-E9F49BE537B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4FBF6438-87B9-4280-9FD4-88AC8FBA72BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FBF6438-87B9-4280-9FD4-88AC8FBA72BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FBF6438-87B9-4280-9FD4-88AC8FBA72BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FBF6438-87B9-4280-9FD4-88AC8FBA72BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7EF148B6-E47E-49C3-8EFD-92A0F4E65D2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EF148B6-E47E-49C3-8EFD-92A0F4E65D2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7EF148B6-E47E-49C3-8EFD-92A0F4E65D2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7EF148B6-E47E-49C3-8EFD-92A0F4E65D2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B386E864-657A-433A-A105-13A8E718923E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B386E864-657A-433A-A105-13A8E718923E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B386E864-657A-433A-A105-13A8E718923E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B386E864-657A-433A-A105-13A8E718923E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F36DC642-A8DA-457B-89ED-3ADA0728D414}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F36DC642-A8DA-457B-89ED-3ADA0728D414}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F36DC642-A8DA-457B-89ED-3ADA0728D414}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F36DC642-A8DA-457B-89ED-3ADA0728D414}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
-		StartupItem = Test2\Sloth.csproj
+		StartupItem = Sloth.Worker\Sloth.Worker.csproj
 	EndGlobalSection
 EndGlobal

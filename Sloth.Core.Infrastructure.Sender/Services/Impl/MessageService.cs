@@ -3,7 +3,7 @@ using RabbitMQ.Client;
 using Castle.Core.Logging;
 using System.Text;
 
-namespace Sloth.Core.Infrastructure
+namespace Sloth.Core.Infrastructure.Sender.Services.Impl
 {
 	public class MessageService : IMessageService
 	{
