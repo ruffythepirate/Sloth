@@ -1,6 +1,7 @@
 ﻿using System;
 using Castle.Core.Logging;
 using Sloth.Core.Infrastructure;
+using Sloth.Core.Infrastructure.Sender.Services;
 
 namespace Test2
 {

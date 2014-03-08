@@ -48,6 +48,9 @@
     <Compile Include="ReceiverManager.cs" />
     <Compile Include="Adapters\IMessageAdapter.cs" />
     <Compile Include="Adapters\JsonAdapter.cs" />
+    <Compile Include="ICommandHandler.cs" />
+    <Compile Include="Helpers\CommandHandlerMetadata.cs" />
+    <Compile Include="Helpers\CommandHandlerAnalyzer.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
@@ -61,5 +64,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Adapters\" />
+    <Folder Include="Helpers\" />
   </ItemGroup>
 </Project>

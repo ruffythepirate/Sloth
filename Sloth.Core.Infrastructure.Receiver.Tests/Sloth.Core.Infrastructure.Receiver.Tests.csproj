@@ -5,10 +5,10 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>10.0.0</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{F36DC642-A8DA-457B-89ED-3ADA0728D414}</ProjectGuid>
+    <ProjectGuid>{DA345675-E04B-4233-AD5E-1484721F71B0}</ProjectGuid>
     <OutputType>Library</OutputType>
-    <RootNamespace>Sloth.Core.Infrastructure.Sender</RootNamespace>
-    <AssemblyName>Sloth.Core.Infrastructure.Sender</AssemblyName>
+    <RootNamespace>Sloth.Core.Infrastructure.Receiver.Tests</RootNamespace>
+    <AssemblyName>Sloth.Core.Infrastructure.Receiver.Tests</AssemblyName>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -30,25 +30,23 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
-    <Reference Include="RabbitMQ.Client">
-      <HintPath>..\packages\RabbitMQ.Client.3.2.1\lib\net30\RabbitMQ.Client.dll</HintPath>
-    </Reference>
-    <Reference Include="Castle.Core">
-      <HintPath>..\packages\Castle.Core.3.2.2\lib\net40-client\Castle.Core.dll</HintPath>
-    </Reference>
+    <Reference Include="nunit.framework" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Services\ICommandService.cs" />
-    <Compile Include="Services\IMessageService.cs" />
-    <Compile Include="Services\Impl\CommandService.cs" />
-    <Compile Include="Services\Impl\MessageService.cs" />
+    <Compile Include="CommandHandlerAnalyzerTest.cs" />
+    <Compile Include="TestData\TestCommandHandler.cs" />
+    <Compile Include="TestData\FirstTestCommand.cs" />
+    <Compile Include="TestData\SecondTestCommand.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
-    <None Include="packages.config" />
+    <Folder Include="TestData\" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Sloth.Core.Infrastructure.Receiver\Sloth.Core.Infrastructure.Receiver.csproj">
+      <Project>{7EF148B6-E47E-49C3-8EFD-92A0F4E65D2C}</Project>
+      <Name>Sloth.Core.Infrastructure.Receiver</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Sloth.Core.Infrastructure\Sloth.Core.Infrastructure.csproj">
       <Project>{248C18C2-E9BF-4D21-83A1-AF5A69FFE086}</Project>
       <Name>Sloth.Core.Infrastructure</Name>

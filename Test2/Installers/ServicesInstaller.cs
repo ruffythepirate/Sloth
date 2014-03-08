@@ -3,6 +3,7 @@ using Castle.MicroKernel.Registration;
 using Castle.Windsor;
 using Castle.MicroKernel.SubSystems.Configuration;
 using Sloth.Core.Infrastructure;
+using Sloth.Core.Infrastructure.Sender.Services;
 
 namespace Test2
 {

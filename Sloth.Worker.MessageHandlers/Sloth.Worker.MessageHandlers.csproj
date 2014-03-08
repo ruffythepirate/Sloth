@@ -49,5 +49,9 @@
       <Project>{248C18C2-E9BF-4D21-83A1-AF5A69FFE086}</Project>
       <Name>Sloth.Core.Infrastructure</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Sloth.Core.Infrastructure.Receiver\Sloth.Core.Infrastructure.Receiver.csproj">
+      <Project>{7EF148B6-E47E-49C3-8EFD-92A0F4E65D2C}</Project>
+      <Name>Sloth.Core.Infrastructure.Receiver</Name>
+    </ProjectReference>
   </ItemGroup>
 </Project>

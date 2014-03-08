@@ -1,6 +1,7 @@
 ﻿using System;
 using Sloth.Core.Infrastructure;
 using Sloth.Internal.Contracts;
+using Sloth.Core.Infrastructure.Receiver;
 
 namespace Sloth.Worker.MessageHandlers
 {

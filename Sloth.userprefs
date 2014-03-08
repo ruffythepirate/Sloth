@@ -1,26 +1,42 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Test2/Controllers/EnvironmentsController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Sloth.Core.Infrastructure.Receiver/Adapters/JsonAdapter.cs">
     <Files>
       <File FileName="Test2/Controllers/HomeController.cs" Line="1" Column="1" />
       <File FileName="Test2/Views/Home/Index.aspx" Line="1" Column="1" />
       <File FileName="Test2/Models/MessageViewModel.cs" Line="1" Column="1" />
       <File FileName="Test2/Plumbing/WindsorControllerFactory.cs" Line="1" Column="1" />
       <File FileName="Test2/Web.config" Line="1" Column="1" />
-      <File FileName="Sloth.Core.Infrastructure/Services/Impl/MessageService.cs" Line="26" Column="28" />
       <File FileName="Test2/ControllerServices/HomeControllerService.cs" Line="1" Column="1" />
       <File FileName="Test2/Installers/ControllerServicesInstaller.cs" Line="1" Column="1" />
       <File FileName="Test2/Installers/ServicesInstaller.cs" Line="1" Column="1" />
       <File FileName="Test2/Installers/ControllersInstaller.cs" Line="1" Column="1" />
       <File FileName="Test2/packages.config" Line="1" Column="1" />
-      <File FileName="Sloth.Internal.Contracts/Commands/Environments/CreateEnvironment.cs" Line="6" Column="3" />
+      <File FileName="Sloth.Internal.Contracts/Commands/Environments/CreateEnvironmentCommand.cs" Line="1" Column="1" />
       <File FileName="Sloth.Domain/MyClass.cs" Line="1" Column="1" />
       <File FileName="Test2/Controllers/EnvironmentsController.cs" Line="1" Column="1" />
+      <File FileName="Test2/Models/Environments/EnvironmentViewModel.cs" Line="1" Column="1" />
+      <File FileName="Test2/Views/Environments/Index.aspx" Line="1" Column="1" />
+      <File FileName="Test2/ControllerServices/EnvironmentsControllerService.cs" Line="1" Column="1" />
+      <File FileName="Sloth.Core.Infrastructure.Receiver/ReceiverManager.cs" Line="1" Column="1" />
+      <File FileName="Sloth.Worker.MessageHandlers/EnvironmentCommandHandler.cs" Line="1" Column="1" />
+      <File FileName="Sloth.Worker/SlothWorker.cs" Line="1" Column="1" />
+      <File FileName="Test2/Installers/LoggerInstaller.cs" Line="1" Column="1" />
+      <File FileName="Test2/Global.asax" Line="1" Column="1" />
+      <File FileName="Sloth.Core.Infrastructure.Sender/Services/IMessageService.cs" Line="1" Column="1" />
+      <File FileName="Sloth.Core.Infrastructure.Sender/Services/ICommandService.cs" Line="1" Column="1" />
+      <File FileName="Sloth.Core.Infrastructure.Sender/Services/Impl/MessageService.cs" Line="1" Column="1" />
+      <File FileName="Sloth.Core.Infrastructure.Sender/Services/Impl/CommandService.cs" Line="1" Column="1" />
+      <File FileName="Sloth.Core.Infrastructure/ICommandHandler.cs" Line="1" Column="1" />
+      <File FileName="Sloth.Core.Infrastructure/ICommand.cs" Line="1" Column="1" />
+      <File FileName="Sloth.Core.Infrastructure.Receiver/Adapters/IMessageAdapter.cs" Line="1" Column="1" />
+      <File FileName="Sloth.Core.Infrastructure.Receiver/Adapters/JsonAdapter.cs" Line="6" Column="47" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
       <Breakpoint file="/Users/ruffy/Programming/mono/Sloth/Test2/Controllers/HomeController.cs" line="93" column="1" />
+      <Breakpoint file="/Users/ruffy/Programming/mono/Sloth/Test2/Controllers/EnvironmentsController.cs" line="36" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
